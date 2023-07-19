@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Optimnet Nebula Suite">
+  <listeners>
+  <listener class-name="com.nebula.qa.listners.MyListners"></listener>
+  </listeners>
+  <test name="Optimnet Nebula Test">
+    <classes>
+      <class name="com.nebula.testcases.LoginTest"/>
+      <class name="com.nebula.testcases.StockInTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
